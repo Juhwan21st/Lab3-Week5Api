@@ -20,7 +20,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Enable Swagger in production for Azure testing
 app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
