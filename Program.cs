@@ -29,7 +29,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 // Minimal API endpoint!
-app.MapGet("/hello", () => "Hello from your Azure API running .NET 10");
+app.MapGet("/hello", () => "Your API has been updated through CI and CD");
 
 app.MapControllers();
 
